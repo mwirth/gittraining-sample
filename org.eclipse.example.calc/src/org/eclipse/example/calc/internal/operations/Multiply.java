@@ -2,6 +2,12 @@ package org.eclipse.example.calc.internal.operations;
 
 import org.eclipse.example.calc.BinaryOperation;
 
+/**
+ * class for multiply operations
+ * I want to test rebase
+ * @author mwirth
+ *
+ */
 public class Multiply extends AbstractOperation implements BinaryOperation {
 
 	@Override
