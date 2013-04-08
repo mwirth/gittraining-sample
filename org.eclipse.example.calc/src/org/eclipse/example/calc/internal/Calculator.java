@@ -17,6 +17,7 @@ import org.eclipse.example.calc.internal.operations.Divide;
 import org.eclipse.example.calc.internal.operations.Equals;
 import org.eclipse.example.calc.internal.operations.Minus;
 import org.eclipse.example.calc.internal.operations.Multiply;
+import org.eclipse.example.calc.internal.operations.Mod;
 import org.eclipse.example.calc.internal.operations.Plus;
 import org.eclipse.example.calc.internal.operations.Square;
 
@@ -44,6 +45,7 @@ public class Calculator {
 		new Square();
 		new Divide();
 		new Multiply();
+		new Mod(); // Modulo
 	}
 
 	private void calculate(String cmdName) {
