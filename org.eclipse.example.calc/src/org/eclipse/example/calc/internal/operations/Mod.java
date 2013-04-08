@@ -2,17 +2,16 @@ package org.eclipse.example.calc.internal.operations;
 
 import org.eclipse.example.calc.BinaryOperation;
 
-public class Divide extends AbstractOperation implements BinaryOperation {
+public class Mod extends AbstractOperation implements BinaryOperation {
 
 	@Override
 	public String getName() {
-		return "/";
+		return "mod";
 	}
 
 	@Override
 	public float perform(float arg1, float arg2) {
-		// I should comment
-		return arg1/arg2;
+		return arg1 % arg2;
 	}
 
 }
