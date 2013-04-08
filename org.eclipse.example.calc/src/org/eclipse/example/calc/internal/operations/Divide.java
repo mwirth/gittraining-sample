@@ -2,6 +2,12 @@ package org.eclipse.example.calc.internal.operations;
 
 import org.eclipse.example.calc.BinaryOperation;
 
+/**
+ * class for the divide operation.
+ * I want to test the rebase feature
+ * @author mwirth
+ *
+ */
 public class Divide extends AbstractOperation implements BinaryOperation {
 
 	@Override

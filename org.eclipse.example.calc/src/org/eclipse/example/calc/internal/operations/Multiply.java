@@ -6,6 +6,7 @@ import org.eclipse.example.calc.BinaryOperation;
  * class for multiply operations
  * I want to test rebase
  * This is the correct file
+ * where is the comment?
  * @author mwirth
  *
  */
