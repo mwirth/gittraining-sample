@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 /*******************************************************************************
  * Copyright (C) 2010, Sascha Homeier <matthias.sohn@sap.com>
@@ -24,6 +25,28 @@ public class Divide extends AbstractOperation implements BinaryOperation {
 	@Override
 	public String getName() {
 		return "/";
+=======
+package org.eclipse.example.calc.internal.operations;
+
+import org.eclipse.example.calc.BinaryOperation;
+
+/**
+ * class for the divide operation.
+ * I want to test the rebase feature
+ * @author mwirth
+ *
+ */
+public class Divide extends AbstractOperation implements BinaryOperation {
+
+	@Override
+	public String getName() {
+		return "/";
+	}
+
+	@Override
+	public float perform(float arg1, float arg2) {
+		return arg1/arg2;
+>>>>>>> refs/remotes/origin/master
 	}
 
 }

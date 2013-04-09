@@ -48,6 +48,7 @@ public class Calculator {
 		new Divide();
 		new Multiply();
 		new Mod(); // Modulo
+		new Power();
 	}
 
 	private void calculate(String cmdName) {

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*******************************************************************************
  * Copyright (C) 2010, Matthias Sohn <matthias.sohn@sap.com>
  *
@@ -23,6 +24,30 @@ public class Multiply extends AbstractOperation implements BinaryOperation {
 	@Override
 	public String getName() {
 		return "*";
+=======
+package org.eclipse.example.calc.internal.operations;
+
+import org.eclipse.example.calc.BinaryOperation;
+
+/**
+ * class for multiply operations
+ * I want to test rebase
+ * This is the correct file
+ * where is the comment?
+ * @author mwirth
+ *
+ */
+public class Multiply extends AbstractOperation implements BinaryOperation {
+
+	@Override
+	public String getName() {
+		return "*";
+	}
+
+	@Override
+	public float perform(float arg1, float arg2) {
+		return arg1 + arg2;
+>>>>>>> refs/remotes/origin/master
 	}
 
 }
