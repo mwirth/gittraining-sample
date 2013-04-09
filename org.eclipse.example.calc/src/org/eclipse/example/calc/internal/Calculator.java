@@ -58,7 +58,7 @@ public class Calculator {
 	private void calculate(String cmdName) {
 		float curValue;
 		float newValue = 0;
-
+		// insert a comment
 		// get current value of display
 		curValue = Float.parseFloat(textProvider.getDisplayText());
 
