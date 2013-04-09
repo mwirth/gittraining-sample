@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /*******************************************************************************
  * Copyright (C) 2010, Matthias Sohn <matthias.sohn@sap.com>
  *
@@ -7,24 +6,6 @@
  * which accompanies this distribution, and is available at
  * http://www.eclipse.org/legal/epl-v10.html
  *******************************************************************************/
-package org.eclipse.example.calc.internal.operations;
-
-import org.eclipse.example.calc.BinaryOperation;
-
-/**
- * Binary plus operation
- */
-public class Multiply extends AbstractOperation implements BinaryOperation {
-
-	@Override
-	public float perform(float arg1, float arg2) {
-		return arg1 * arg2;
-	}
-
-	@Override
-	public String getName() {
-		return "*";
-=======
 package org.eclipse.example.calc.internal.operations;
 
 import org.eclipse.example.calc.BinaryOperation;
@@ -47,7 +28,6 @@ public class Multiply extends AbstractOperation implements BinaryOperation {
 	@Override
 	public float perform(float arg1, float arg2) {
 		return arg1 + arg2;
->>>>>>> refs/remotes/origin/master
 	}
 
 }

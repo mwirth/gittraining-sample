@@ -19,6 +19,7 @@ import org.eclipse.example.calc.internal.operations.Multiply;
 import org.eclipse.example.calc.internal.operations.Mod;
 import org.eclipse.example.calc.internal.operations.Plus;
 import org.eclipse.example.calc.internal.operations.Divide;
+import org.eclipse.example.calc.internal.operations.Power;
 import org.eclipse.example.calc.internal.operations.Square;
 import org.eclipse.example.calc.internal.operations.Multiply;
 
