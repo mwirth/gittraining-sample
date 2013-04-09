@@ -22,6 +22,9 @@ import org.eclipse.example.calc.internal.operations.Divide;
 import org.eclipse.example.calc.internal.operations.Square;
 import org.eclipse.example.calc.internal.operations.Multiply;
 
+/**
+ * Pony
+ */
 public class Calculator {
 
 	private TextProvider textProvider;
