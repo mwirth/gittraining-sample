@@ -47,10 +47,7 @@ public class Calculator {
 		new Square();
 		new Divide();
 		new Multiply();
-<<<<<<< HEAD
 		new Mod(); // Modulo
-=======
->>>>>>> refs/remotes/origin/featureRemote
 	}
 
 	private void calculate(String cmdName) {
