@@ -4,7 +4,7 @@
  * Copyright (C) 2010, Sascha Homeier <sascha.homeier@meyle-mueller.com>
  *
  * Ist nun alles meins !!!
- * 
+ *
  *******************************************************************************/
 package org.eclipse.example.calc.internal;
 
