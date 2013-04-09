@@ -1,11 +1,10 @@
 /*******************************************************************************
  * Copyright (C) 2010, Matthias Sohn <matthias.sohn@sap.com>
  * Copyright (C) 2010, Stefan Lay <stefan.lay@sap.com>
+ * Copyright (C) 2010, Sascha Homeier <sascha.homeier@meyle-mueller.com>
  *
- * All rights reserved. This program and the accompanying materials
- * are made available under the terms of the Eclipse Public License v1.0
- * which accompanies this distribution, and is available at
- * http://www.eclipse.org/legal/epl-v10.html
+ * Ist nun alles meins !!!
+ * 
  *******************************************************************************/
 package org.eclipse.example.calc.internal;
 
@@ -47,13 +46,8 @@ public class Calculator {
 		new Square();
 		new Divide();
 		new Multiply();
-<<<<<<< HEAD
 		new Mod(); // Modulo
 		new Power();
-=======
-		new Power();
-
->>>>>>> refs/remotes/origin/master
 	}
 
 	private void calculate(String cmdName) {
