@@ -19,7 +19,9 @@ import org.eclipse.example.calc.internal.operations.Minus;
 import org.eclipse.example.calc.internal.operations.Multiply;
 import org.eclipse.example.calc.internal.operations.Mod;
 import org.eclipse.example.calc.internal.operations.Plus;
+import org.eclipse.example.calc.internal.operations.Divide;
 import org.eclipse.example.calc.internal.operations.Square;
+import org.eclipse.example.calc.internal.operations.Multiply;
 
 public class Calculator {
 
@@ -45,7 +47,10 @@ public class Calculator {
 		new Square();
 		new Divide();
 		new Multiply();
+<<<<<<< HEAD
 		new Mod(); // Modulo
+=======
+>>>>>>> refs/remotes/origin/featureRemote
 	}
 
 	private void calculate(String cmdName) {
