@@ -22,6 +22,9 @@ import org.eclipse.example.calc.internal.operations.Plus;
 import org.eclipse.example.calc.internal.operations.Power;
 import org.eclipse.example.calc.internal.operations.Square;
 
+/**
+ * Pony
+ */
 public class Calculator {
 
 	private TextProvider textProvider;
