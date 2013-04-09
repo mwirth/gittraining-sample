@@ -16,10 +16,15 @@ import org.eclipse.example.calc.internal.operations.Divide;
 import org.eclipse.example.calc.internal.operations.Equals;
 import org.eclipse.example.calc.internal.operations.Minus;
 import org.eclipse.example.calc.internal.operations.Multiply;
+import org.eclipse.example.calc.internal.operations.Mod;
 import org.eclipse.example.calc.internal.operations.Plus;
-import org.eclipse.example.calc.internal.operations.Power;
+import org.eclipse.example.calc.internal.operations.Divide;
 import org.eclipse.example.calc.internal.operations.Square;
+import org.eclipse.example.calc.internal.operations.Multiply;
 
+/**
+ * Pony
+ */
 public class Calculator {
 
 	private TextProvider textProvider;
@@ -37,17 +42,15 @@ public class Calculator {
 		setupDefaultOperations();
 	}
 
-	// add operations here
 	private void setupDefaultOperations() {
 		new Equals();
 		new Minus();
 		new Plus();
 		new Square();
 		new Divide();
-		new Power();
 		new Multiply();
+		new Mod(); // Modulo
 		new Power();
-
 	}
 
 	private void calculate(String cmdName) {
