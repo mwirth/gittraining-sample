@@ -2,22 +2,16 @@ package org.eclipse.example.calc.internal.operations;
 
 import org.eclipse.example.calc.BinaryOperation;
 
-/**
- * class for the divide operation.
- * I want to test the rebase feature
- * @author mwirth
- *
- */
-public class Divide extends AbstractOperation implements BinaryOperation {
+public class Power extends AbstractOperation implements BinaryOperation {
 
 	@Override
 	public String getName() {
-		return "/";
+		return "^";
 	}
 
 	@Override
 	public float perform(float arg1, float arg2) {
-		return arg1/arg2;
+		return (float) Math.pow(arg1, arg2);
 	}
 
 }

@@ -3,21 +3,23 @@ package org.eclipse.example.calc.internal.operations;
 import org.eclipse.example.calc.BinaryOperation;
 
 /**
- * class for the divide operation.
- * I want to test the rebase feature
+ * class for multiply operations
+ * I want to test rebase
+ * This is the correct file
+ * where is the comment?
  * @author mwirth
  *
  */
-public class Divide extends AbstractOperation implements BinaryOperation {
+public class Multiply extends AbstractOperation implements BinaryOperation {
 
 	@Override
 	public String getName() {
-		return "/";
+		return "*";
 	}
 
 	@Override
 	public float perform(float arg1, float arg2) {
-		return arg1/arg2;
+		return arg1 + arg2;
 	}
 
 }

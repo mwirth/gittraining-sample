@@ -14,10 +14,9 @@ import org.eclipse.example.calc.Operation;
  * Equals operation to trigger binary operations
  */
 public class Equals extends AbstractOperation implements Operation {
-	
+
 	@Override
 	public String getName() {
 		return "=";
 	}
-
 }
