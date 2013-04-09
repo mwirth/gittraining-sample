@@ -36,6 +36,7 @@ public class Calculator {
 		setupDefaultOperations();
 	}
 
+	// add operations here
 	private void setupDefaultOperations() {
 		new Equals();
 		new Minus();
@@ -43,6 +44,11 @@ public class Calculator {
 		new Square();
 		new Divide();
 
+		// do multiply operation. Example: a * b
+		new Multiply();
+		new Mod(); // Modulo
+		new Power();
+		new Log();
 	}
 
 	private void calculate(String cmdName) {
