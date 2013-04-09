@@ -1,10 +1,11 @@
 /*******************************************************************************
  * Copyright (C) 2010, Matthias Sohn <matthias.sohn@sap.com>
  * Copyright (C) 2010, Stefan Lay <stefan.lay@sap.com>
- * Copyright (C) 2010, Sascha Homeier <sascha.homeier@meyle-mueller.com>
  *
- * Ist nun alles meins !!!
- *
+ * All rights reserved. This program and the accompanying materials
+ * are made available under the terms of the Eclipse Public License v1.0
+ * which accompanies this distribution, and is available at
+ * http://www.eclipse.org/legal/epl-v10.html
  *******************************************************************************/
 package org.eclipse.example.calc.internal;
 
@@ -12,11 +13,12 @@ import org.eclipse.example.calc.BinaryOperation;
 import org.eclipse.example.calc.Operation;
 import org.eclipse.example.calc.Operations;
 import org.eclipse.example.calc.UnaryOperation;
-import org.eclipse.example.calc.internal.operations.*;
+import org.eclipse.example.calc.internal.operations.Equals;
+import org.eclipse.example.calc.internal.operations.Minus;
+import org.eclipse.example.calc.internal.operations.Plus;
+import org.eclipse.example.calc.internal.operations.Square;
+import org.eclipse.example.calc.internal.operations.Divide;
 
-/**
- * Pony
- */
 public class Calculator {
 
 	private TextProvider textProvider;
@@ -40,10 +42,6 @@ public class Calculator {
 		new Plus();
 		new Square();
 		new Divide();
-		new Multiply();
-		new Mod(); // Modulo
-		new Power();
-		new Log();
 	}
 
 	private void calculate(String cmdName) {
