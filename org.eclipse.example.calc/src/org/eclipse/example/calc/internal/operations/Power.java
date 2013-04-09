@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*******************************************************************************
  * Copyright (C) 2010, Matthias Sohn <matthias.sohn@sap.com>
  *
@@ -7,6 +8,11 @@
  * http://www.eclipse.org/legal/epl-v10.html
  *******************************************************************************/
 package org.eclipse.example.calc.internal.operations;
+=======
+package org.eclipse.example.calc.internal.operations;
+
+import org.eclipse.example.calc.BinaryOperation;
+>>>>>>> refs/remotes/origin/master
 
 import org.eclipse.example.calc.BinaryOperation;
 
