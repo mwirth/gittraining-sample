@@ -47,8 +47,13 @@ public class Calculator {
 		new Square();
 		new Divide();
 		new Multiply();
+<<<<<<< HEAD
 		new Mod(); // Modulo
 		new Power();
+=======
+		new Power();
+
+>>>>>>> refs/remotes/origin/master
 	}
 
 	private void calculate(String cmdName) {
