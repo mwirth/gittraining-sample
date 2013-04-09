@@ -22,6 +22,7 @@ import org.eclipse.example.calc.internal.operations.Divide;
 import org.eclipse.example.calc.internal.operations.Power;
 import org.eclipse.example.calc.internal.operations.Square;
 import org.eclipse.example.calc.internal.operations.Multiply;
+import org.eclipse.example.calc.internal.operations.*;
 
 /**
  * Pony
@@ -52,6 +53,7 @@ public class Calculator {
 		new Multiply();
 		new Mod(); // Modulo
 		new Power();
+		new Log();
 	}
 
 	private void calculate(String cmdName) {
