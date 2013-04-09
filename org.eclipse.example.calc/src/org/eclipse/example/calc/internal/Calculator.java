@@ -4,7 +4,7 @@
  * Copyright (C) 2010, Sascha Homeier <sascha.homeier@meyle-mueller.com>
  *
  * Ist nun alles meins !!!
- * 
+ *
  *******************************************************************************/
 package org.eclipse.example.calc.internal;
 
@@ -19,6 +19,7 @@ import org.eclipse.example.calc.internal.operations.Multiply;
 import org.eclipse.example.calc.internal.operations.Mod;
 import org.eclipse.example.calc.internal.operations.Plus;
 import org.eclipse.example.calc.internal.operations.Divide;
+import org.eclipse.example.calc.internal.operations.Power;
 import org.eclipse.example.calc.internal.operations.Square;
 import org.eclipse.example.calc.internal.operations.Multiply;
 
